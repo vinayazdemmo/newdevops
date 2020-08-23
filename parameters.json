@@ -2,43 +2,11 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-         "virtualNetworks_name": {
-            "value": "VNET1"
-        },
-        "subnet_name": {
-            "value": "NEWSUB"
-        },
-        "storageacc_name": {
+          "storageacc_name": {
             "value": "ztracczx01"
-			         
-        },
-		
-		"publicip_name": {
-            "value": "VM-PIP"
-        },
-		
-         "nsg_name": {
-            "value": "VM-NSG"
-        },
-		
-		
-		 "storageNewOrExisting": {
-              "value": "NEW"
-      
-      
-        },
-		   
-	    
-		
-		
-	      	 "passwrd": {
-         "reference": {
-            "keyVault": {
-              "id": "/subscriptions/711d3d61-cb44-4107-afa9-6903e44048f0/resourceGroups/RM1/providers/Microsoft.KeyVault/vaults/keyvaultxz"
-           },
-        "secretName": "sekretz"
         }
-      }
+		
+	
 	
 	}
 	
